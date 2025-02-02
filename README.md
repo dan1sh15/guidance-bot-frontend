@@ -40,4 +40,4 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone [https://github.com/dan1sh15/guidance-bot-frontend](https://github.com/dan1sh15/guidance-bot-frontend)
