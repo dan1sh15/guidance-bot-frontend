@@ -99,7 +99,7 @@ export default function UdemyCourses() {
                 <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Udemy Courses</h2>
                 <p className="mt-2 text-lg/8 text-gray-600">Udemy courses recommended for {job_role}</p>
                 </div>
-                <div className="mx-auto mt-10 grid max-w-2xl grid-cols-3 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
+                <div className="mx-auto mt-10 grid max-w-2xl grid-cols-3 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {courses.map((courses, idx) => (
                     <div key={idx+1} className='flex flex-col gap-y-7 bg-white px-5 py-5 justify-between rounded-lg capitalize text-lg shadow-xl '>
                         <p className='text-xl font-bold text-center'>{courses.description}</p>

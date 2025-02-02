@@ -102,7 +102,7 @@ export default function ProjectsAndSkills() {
                 <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Projects</h2>
                 <p className="mt-2 text-lg/8 text-gray-600">Projects recommended for {job_role}</p>
                 </div>
-                <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {projects.map((project, idx) => (
                     <div key={idx+1} className='text-xl font-semibold capitalize'>
                         {
@@ -119,7 +119,7 @@ export default function ProjectsAndSkills() {
                 <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Skills</h2>
                 <p className="mt-2 text-lg/8 text-gray-600">Skills every {job_role} should posses</p>
                 </div>
-                <div className="mx-auto mt-10 max-w-2xl flex gap-x-5 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <div className="mx-auto mt-10 max-w-2xl flex gap-x-5 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 max-lg:grid-cols-2 max-sm:grid-cols-1">
                 {skills.map((skill, idx) => (
                     <div key={idx+1} className='text-xl font-semibold capitalize bg-gray-200 text-slate-600 px-3 py-1'>
                         {
